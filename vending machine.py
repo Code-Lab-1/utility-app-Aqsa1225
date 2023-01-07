@@ -63,7 +63,7 @@ print("14. Black Coffee         AED 250 ,    Code: 1166 ,   Stock:50")
 print("15. Water Price          AED 165 ,    Code: 1177 ,   Stock:200")
 print("..............................................................")
 
-#Price of items    
+#Price of items in the shop    
 Dairymilk=250
 Mars=185
 Snickers=135
@@ -87,15 +87,15 @@ if stock > 0:
     print("We have chocolates and drinks in stock. Please make your selection.")
     print("_____________________________________________________________________")
 
-#Code For Entering The Product Code      
+#This is for Entering The Product Code      
 items_code=input('Please enter the Product Code you would like to buy:')
 
-#Code For Entering the Amount of Money
+# Enter the Amount of Money
 money=int(input("Thankyou for your selection .Please insert the money"))
 
 
 
-#Code for  Additional Items   
+#Choice  for  Additional Item   
 choice = {
    '1': 'yes',
    '2': 'no'
@@ -107,7 +107,7 @@ if choice== 'ok':
 elif choice=='no':
     print("Thankyou for your Selection")
 
-#Code For Returning the Correct Change Of Dairymilk
+#Calculating and Returning the Correct Change Of Dairymilk
 if items_code=='1111':
    if money >= Dairymilk:
     money=money-Dairymilk
@@ -125,7 +125,7 @@ if items_code=='1111':
    else:
      print("Try Again.Insufficient balance.Money Refunded")
 
-#Code For Returning the Correct Change Of Mars 
+#Calculating and Returning the Correct Change Of Mars 
 if items_code=='2222':
    if money >= Mars:
     money=money-Mars
@@ -144,7 +144,7 @@ if items_code=='2222':
      print("Try Again.Insufficient balance.Money Refunded")  
 
 
-#Code For Returning the Correct Change Of Snickers
+#Calculating and Returning the Correct Change Of Snickers
 if items_code=='3333':
    if money >= Snickers:
     money=money-Snickers
@@ -162,7 +162,7 @@ if items_code=='3333':
    else:
      print("Try Again.Insufficient balance.Money Refunded")  
 
-#Code For Returning the Correct Change Of Kinder
+#Calculating and Returning the Correct Change Of Kinder
 if items_code=='4444':
    if money >= Kinder:
     money=money-Kinder
@@ -183,7 +183,7 @@ if items_code=='4444':
     
  
 
-#Code For Returning the Correct Change Of Flake
+#Calculating and Returning the Correct Change Of Flake
 if items_code=='5555':
    if money >= Flake:
     money=money-Flake
@@ -202,7 +202,7 @@ if items_code=='5555':
      print("Try Again.Insufficient balance.Money Refunded")  
 
 
-#Code For Returning the Correct Change Of Bounty
+#Calculating and Returning the Correct Change Of Bounty
 if items_code=='6666':
    if money >= Bounty:
     money=money-Bounty
@@ -221,7 +221,7 @@ if items_code=='6666':
      print("Try Again.Insufficient balance.Money Refunded")  
 
 
-#Code For Returning the Correct Change Of Galaxy
+#Calculating and Returning the Correct Change Of Galaxy
 if items_code=='7777':
    if money >= Galaxy:
     money=money-Galaxy
@@ -241,7 +241,7 @@ if items_code=='7777':
 
 
 
-#Code For Returning the Correct Change Apple Juice
+#Calculating and Returning the Correct Change Apple Juice
 if items_code=='8888':
    if money >= Applejuice:
     money=money-Applejuice
@@ -261,7 +261,7 @@ if items_code=='8888':
 
 
 
-#Code For Returning the Correct Change Of Orange Juice
+#Calculating and Returning the Correct Change Of Orange Juice
 if items_code=='9999':
    if money >= Orangejuice:
     money=money-Orangejuice
@@ -281,7 +281,7 @@ if items_code=='9999':
 
 
 
-#Code For Returning the Correct Change Of Strawberry Juice
+#Calculating and  Returning the Correct Change Of Strawberry Juice
 if items_code=='1122':
    if money >= Strawberryjuice:
     money=money-Strawberryjuice
@@ -302,7 +302,7 @@ if items_code=='1122':
 
 
 
-#Code For Returning the Correct Change Of Pineapple Juice
+#Calculating and Returning the Correct Change Of Pineapple Juice
 if items_code=='1133':
    if money >= Pineapplejuice:
     money=money-Pineapplejuice
@@ -323,7 +323,7 @@ if items_code=='1133':
 
 
 
-#Code For Returning the Correct Change Of Litchi Drink
+#Calculatimg and Returning the Correct Change Of Litchi Drink
 if items_code=='1144':
    if money >= Litchidrink:
     money=money-Litchidrink
